@@ -1,0 +1,25 @@
+{
+  "name": "@bufferapp/keywrapper",
+  "version": "0.1.0",
+  "description": "Wrap up your Redux Actions in a namespace bow",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bufferapp/buffer-js-keywrapper.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Dan Farrelly <daniel.j.farrelly@gmail.com> (http://danfarrelly.nyc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bufferapp/buffer-js-keywrapper/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/bufferapp/buffer-js-keywrapper#readme"
+}
