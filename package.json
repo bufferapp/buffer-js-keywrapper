@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/keywrapper",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Wrap up your Redux Actions in a namespace bow",
   "main": "index.js",
   "scripts": {
