@@ -15,7 +15,7 @@ npm install @bufferapp/keywrapper
 
 ## Usage
 
-```
+```js
 import keyWrapper from '@bufferapp/keywrapper'
 
 const actions = keyWrapper('QUEUE', {
