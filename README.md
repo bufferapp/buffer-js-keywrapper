@@ -1,5 +1,7 @@
 # @bufferapp/keywrapper
 
+[![npm version](https://badge.fury.io/js/%40bufferapp%2Fkeywrapper.svg)](https://badge.fury.io/js/%40bufferapp%2Fkeywrapper) [![Build Status](https://travis-ci.org/bufferapp/buffer-js-keywrapper.svg?branch=0.1.0)](https://travis-ci.org/bufferapp/buffer-js-keywrapper)
+
 A quick way to wrap your Redux actions in a namespace.
 
 When dealing with larger Redux applications, this can help avoid generic
