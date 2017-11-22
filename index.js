@@ -1,7 +1,7 @@
 module.exports = function keyWrapper(namespace, actions) {
-  return Object.keys(actions)
-    .reduce((o, action) => {
-      o[action] = `${namespace}__${action}`
-      return o
-    }, {})
+  const keys = Array.isArray(actions) ? actions : Object.keys(actions)
+  return keys.reduce((o, action) => {
+    o[action] = `${namespace}__${action}`
+    return o
+  }, {})
 }
